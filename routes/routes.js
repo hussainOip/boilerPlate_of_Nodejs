@@ -6,6 +6,8 @@ const router = () => {
   Router.get("/index", post.index);
   Router.post("/email", post.email);
   return Router;
+
+  
 };
 
 module.exports = router();
