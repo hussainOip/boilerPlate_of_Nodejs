@@ -4,6 +4,7 @@ const app = express();
 const route = require("./routes/routes");
 require("dotenv").config();
 app.use(bodyParser.json());
+
 app.use("/api", route);
 
 app.use("/", (req, res, next) => {
